@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 18px;
+}
+body{
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 11, 12%);
+}
+section{
+    background-color: rgb(23, 176, 214);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-profile{
+    width: 350px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+}
+.card-top{
+    background-image: url(import\ color.png);
+    background-size: cover;
+    height: 100px;
+}
+.card-body{
+    padding: 0 20px 30px;
+}
+.img-holder{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: -50px auto 30px auto;
+}
+.img-holder img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.name-age{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.age{
+    font-weight: 200;
+}
+.age
+.city
+.angle{
+    font-weight: 400;
+    color: rgb(2, 25, 39);
+    opacity: 6;
+}
+.card-bottom{
+    display: flex;
+    padding: 0 25px;
+}
+.card-bottom .item{
+    flex: 1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
